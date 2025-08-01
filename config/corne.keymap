@@ -57,6 +57,46 @@
         };
     };
 
+    macros {
+        qu: qu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Q &kp U>;
+            label = "QU";
+        };
+
+        Qu: Qu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(Q) &kp U>;
+            label = "QU";
+        };
+
+        copy: copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C>, <&macro_press>;
+
+            label = "COPY";
+        };
+
+        cut: cut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V>, <&macro_press>;
+
+            label = "CUT";
+        };
+
+        select_all: select_all {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&macro_press>;
+
+            label = "SELECT_ALL";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
