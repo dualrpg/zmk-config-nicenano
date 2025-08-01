@@ -23,10 +23,10 @@
 
         secondary_layer {
             bindings = <
-&trans  &trans      &kp LS(PLUS)  &kp X          &kp LS(STAR)   &kp CARET        &kp P   &trans  &kp K     &kp Q     &trans        &trans
-&trans  &kp LS(AT)  &kp LS(LT)    &kp MINUS      &kp LS(GT)     &kp LS(EXCL)     &trans  &trans  &trans    &trans    &kp Z         &trans
-&trans  &kp J       &kp LS(AMPS)  &kp LBKT       &kp RBKT       &kp LS(POUND)    &trans  &trans  &kp BSLH  &kp FSLH  &kp LS(PIPE)  &trans
-                                  &kp LS(PRCNT)  &kp LS(COLON)  &trans           &trans  &trans  &trans
+&trans  &trans       &kp LS(PLUS)  &mt LS(X) X    &kp LS(STAR)   &kp CARET        &trans  &trans  &mt LS(K) K  &none     &trans        &trans
+&trans  &kp LS(AT)   &kp LS(LT)    &kp MINUS      &kp LS(GT)     &kp LS(EXCL)     &trans  &trans  &trans       &trans    &mt LS(Z) Z   &trans
+&trans  &mt LS(J) J  &kp LS(AMPS)  &kp LBKT       &kp RBKT       &kp LS(POUND)    &trans  &trans  &kp BSLH     &kp FSLH  &kp LS(PIPE)  &trans
+                                   &kp LS(PRCNT)  &kp LS(COLON)  &mt LS(Q) Q      &trans  &trans  &trans
             >;
         };
 
@@ -59,10 +59,10 @@
 
         shift_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans     &kp LS(Y)     &kp LS(L)  &kp LS(DLLR)  &kp SEMI         &kp LS(B)  &kp LS(P)  &kp LS(D)  &kp LS(C)     &trans     &trans
+&trans  &kp LS(R)  &kp LS(I)     &kp LS(N)  &kp LS(A)     &kp GRAVE        &kp LS(F)  &kp ESC    &kp LS(T)  &kp LS(S)     &kp LS(U)  &trans
+&trans  &trans     &kp LS(LBRC)  &kp LS(M)  &kp LS(O)     &kp LS(QMARK)    &kp LS(V)  &kp LS(H)  &kp LS(G)  &kp LS(RBRC)  &kp LS(W)  &trans
+                                 &trans     &trans        &trans           &trans     &kp LS(E)  &trans
             >;
         };
 
