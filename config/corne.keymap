@@ -75,32 +75,28 @@
         copy: copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C>, <&macro_press>;
-
+            bindings = <&kp LC(C)>;
             label = "COPY";
         };
 
         paste: cut {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp V>, <&macro_press>;
-
+            bindings = <&kp LC(V)>;
             label = "CUT";
         };
 
         select_all: select_all {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A>, <&macro_press>;
-
+            bindings = <&kp LC(A)>;
             label = "SELECT_ALL";
         };
 
         undo: undo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Z>, <&macro_press>;
-
+            bindings = <&kp LC(Z)>;
             label = "UNDO";
         };
     };
