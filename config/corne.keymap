@@ -80,7 +80,7 @@
             label = "COPY";
         };
 
-        cut: cut {
+        paste: cut {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp V>, <&macro_press>;
@@ -94,6 +94,14 @@
             bindings = <&kp A>, <&macro_press>;
 
             label = "SELECT_ALL";
+        };
+
+        undo: undo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z>, <&macro_press>;
+
+            label = "UNDO";
         };
     };
 
@@ -111,10 +119,10 @@
 
         secondary_layer {
             bindings = <
-&trans  &trans       &kp LS(PLUS)  &mt LS(X) X    &kp LS(STAR)   &kp CARET        &trans  &trans  &mt LS(K) K  &none     &trans        &trans
+&trans  &trans       &kp LS(PLUS)  &mt LS(X) X    &kp LS(STAR)   &kp CARET        &trans  &trans  &mt LS(K) K  &qu       &trans        &trans
 &trans  &kp LS(AT)   &kp LS(LT)    &kp MINUS      &kp LS(GT)     &kp LS(EXCL)     &trans  &trans  &trans       &trans    &mt LS(Z) Z   &trans
 &trans  &mt LS(J) J  &kp LS(AMPS)  &kp LBKT       &kp RBKT       &kp LS(POUND)    &trans  &trans  &kp BSLH     &kp FSLH  &kp LS(PIPE)  &trans
-                                   &kp LS(PRCNT)  &kp LS(COLON)  &mt LS(Q) Q      &trans  &trans  &trans
+                                   &kp LS(PRCNT)  &kp LS(COLON)  &mt LS(Q) Q      &trans  &Qu     &trans
             >;
         };
 
@@ -165,10 +173,10 @@
 
         shortcuts_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans       &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &select_all  &copy   &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans       &paste  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                             &trans  &undo   &trans    &trans  &trans  &trans
             >;
         };
     };
