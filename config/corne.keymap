@@ -92,6 +92,13 @@
             bindings = <&kp LC(Z)>;
             label = "UNDO";
         };
+
+        shiftq: shiftq {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(Q) &kp U>;
+            label = "SHIFTQ";
+        };
     };
 
     keymap {
