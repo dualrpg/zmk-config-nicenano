@@ -16,6 +16,45 @@
             bindings = <&kp J>;
             key-positions = <14 15>;
         };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <15 16>;
+        };
+
+        p {
+            bindings = <&kp P>;
+            key-positions = <19 20>;
+        };
+
+        v {
+            bindings = <&kp V>;
+            key-positions = <20 21>;
+        };
+
+        shift_j {
+            bindings = <&kp LS(J)>;
+            key-positions = <14 15>;
+            layers = <5>;
+        };
+
+        shift_b {
+            bindings = <&kp LS(B)>;
+            key-positions = <15 16>;
+            layers = <5>;
+        };
+
+        shift_p {
+            bindings = <&kp LS(P)>;
+            key-positions = <19 20>;
+            layers = <5>;
+        };
+
+        shift_v {
+            bindings = <&kp LS(V)>;
+            key-positions = <20 21>;
+            layers = <5>;
+        };
     };
 
     keymap {
