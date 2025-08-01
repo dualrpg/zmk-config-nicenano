@@ -65,13 +65,6 @@
             label = "QU";
         };
 
-        shiftqu: Qu {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(Q) &kp U>;
-            label = "QU";
-        };
-
         copy: copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
