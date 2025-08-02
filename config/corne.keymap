@@ -116,7 +116,7 @@
         secondary_layer {
             bindings = <
 &trans  &trans       &kp LS(PLUS)  &mt LS(X) X    &kp LS(STAR)   &kp CARET        &trans  &trans   &mt LS(K) K  &qu       &trans        &trans
-&trans  &kp LS(AT)   &kp LS(LT)    &kp MINUS      &kp LS(GT)     &kp LS(EXCL)     &trans  &trans   &trans       &trans    &mt LS(Z) Z   &trans
+&trans  &kp LS(AT)   &kp LS(LT)    &kp MINUS      &kp LS(GT)     &kp LS(EXCL)     &trans  &kp ESC  &trans       &trans    &mt LS(Z) Z   &trans
 &trans  &mt LS(J) J  &kp LS(AMPS)  &kp LBKT       &kp RBKT       &kp LS(POUND)    &trans  &trans   &kp BSLH     &kp FSLH  &kp LS(PIPE)  &trans
                                    &kp LS(PRCNT)  &kp LS(COLON)  &mt LS(Q) Q      &trans  &shiftq  &trans
             >;
@@ -127,7 +127,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+                        &trans  &trans  &trans    &kp N0  &trans  &trans
             >;
         };
 
