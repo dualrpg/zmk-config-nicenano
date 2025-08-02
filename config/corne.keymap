@@ -106,18 +106,18 @@
 
         main_layer {
             bindings = <
-&trans  &trans                 &kp Y         &kp L               &kp LS(UNDER)    &kp SEMI     &kp B        &kp P    &kp D   &mt LEFT_CONTROL C  &trans  &trans
-&trans  &mt LEFT_SHIFT R       &kp I         &lt 3 N             &lt 2 A          &kp COMMA    &kp F        &mo 1    &kp T   &kp S               &kp U   &trans
-&trans  &mt LEFT_SHIFT PERIOD  &kp LS(LPAR)  &mt LEFT_CONTROL M  &kp O            &kp EQUAL    &kp V        &kp H    &kp G   &kp LS(RPAR)        &kp W   &trans
-                                             &kp LGUI            &lt 6 BACKSPACE  &lt 5 E      &lt 4 SPACE  &kp RET  &trans
+&trans  &trans                 &kp Y         &kp L               &kp LS(UNDER)    &kp SEMI     &kp B        &kp P    &kp D    &mt LEFT_CONTROL C  &trans  &trans
+&trans  &mt LEFT_SHIFT R       &kp I         &lt 3 N             &lt 2 A          &kp COMMA    &kp F        &sl 1    &kp T    &kp S               &kp U   &trans
+&trans  &mt LEFT_SHIFT PERIOD  &kp LS(LPAR)  &mt LEFT_CONTROL M  &kp O            &kp EQUAL    &kp V        &kp H    &kp G    &kp LS(RPAR)        &kp W   &trans
+                                             &kp LGUI            &lt 6 BACKSPACE  &lt 5 E      &lt 4 SPACE  &kp RET  &kp TAB
             >;
         };
 
         secondary_layer {
             bindings = <
-&trans  &trans       &kp LS(PLUS)  &mt LS(X) X    &kp LS(STAR)   &kp CARET        &trans  &trans   &mt LS(K) K  &qu       &trans        &trans
-&trans  &kp LS(AT)   &kp LS(LT)    &kp MINUS      &kp LS(GT)     &kp LS(EXCL)     &trans  &kp ESC  &trans       &trans    &mt LS(Z) Z   &trans
-&trans  &mt LS(J) J  &kp LS(AMPS)  &kp LBKT       &kp RBKT       &kp LS(POUND)    &trans  &trans   &kp BSLH     &kp FSLH  &kp LS(PIPE)  &trans
+&trans  &trans       &kp LS(PLUS)  &mt LS(X) X    &kp LS(STAR)   &kp CARET        &trans  &trans   &mt LS(K) K  &qu                &trans        &trans
+&trans  &kp LS(AT)   &kp LS(LT)    &kp MINUS      &kp LS(GT)     &kp LS(EXCL)     &trans  &kp ESC  &kp SQT      &kp DOUBLE_QUOTES  &mt LS(Z) Z   &trans
+&trans  &mt LS(J) J  &kp LS(AMPS)  &kp LBKT       &kp RBKT       &kp LS(POUND)    &trans  &trans   &kp BSLH     &kp FSLH           &kp LS(PIPE)  &trans
                                    &kp LS(PRCNT)  &kp LS(COLON)  &mt LS(Q) Q      &trans  &shiftq  &trans
             >;
         };
