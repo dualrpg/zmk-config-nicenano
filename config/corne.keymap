@@ -35,29 +35,24 @@
         shift_j {
             bindings = <&kp LS(J)>;
             key-positions = <14 15 38>;
-            layers = <5>;
-            require-prior-idle-ms = <1>;
+            require-prior-idle-ms = <0>;
         };
 
         shift_b {
             bindings = <&kp LS(B)>;
             key-positions = <15 16 38>;
-            layers = <5>;
-            require-prior-idle-ms = <1>;
         };
 
         shift_p {
             bindings = <&kp LS(P)>;
             key-positions = <19 20 38>;
-            layers = <5>;
-            require-prior-idle-ms = <1>;
+            require-prior-idle-ms = <0>;
         };
 
         shift_v {
             bindings = <&kp LS(V)>;
             key-positions = <20 21 38>;
-            layers = <5>;
-            require-prior-idle-ms = <1>;
+            require-prior-idle-ms = <0>;
         };
     };
 
