@@ -107,7 +107,7 @@
             bindings = <
 &trans  &trans                 &kp Y         &kp L               &kp LS(UNDER)    &kp SEMI     &kp B        &kp P    &kp D    &mt LEFT_CONTROL C  &trans  &trans
 &trans  &mt LEFT_SHIFT R       &kp I         &lt 3 N             &lt 2 A          &kp COMMA    &kp F        &sl 1    &kp T    &kp S               &kp U   &trans
-&trans  &mt LEFT_SHIFT PERIOD  &kp LS(LPAR)  &mt LEFT_CONTROL M  &kp O            &kp EQUAL    &kp V        &kp H    &kp G    &kp LS(RPAR)        &kp W   &trans
+&trans  &mt LEFT_SHIFT PERIOD  &kp LS(LPAR)  &mt LEFT_CONTROL M  &lt 7 O          &kp EQUAL    &kp V        &kp H    &kp G    &kp LS(RPAR)        &kp W   &trans
                                              &kp LGUI            &lt 6 BACKSPACE  &lt 5 E      &lt 4 SPACE  &kp RET  &kp TAB
             >;
         };
