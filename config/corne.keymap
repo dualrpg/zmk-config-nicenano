@@ -173,7 +173,7 @@
             bindings = <
 &trans  &trans     &kp LS(Y)     &kp LS(L)  &kp LS(DLLR)  &kp SEMI         &kp LS(B)  &kp LS(P)  &kp LS(D)  &kp LS(C)     &trans     &trans
 &trans  &kp LS(R)  &kp LS(I)     &kp LS(N)  &kp LS(A)     &kp GRAVE        &kp LS(F)  &mo 1      &kp LS(T)  &kp LS(S)     &kp LS(U)  &trans
-&trans  &trans     &kp LS(LBRC)  &kp LS(M)  &kp LS(O)     &kp LS(QMARK)    &kp LS(V)  &kp LS(H)  &kp LS(G)  &kp LS(RBRC)  &kp LS(W)  &trans
+&trans  &kp TILDE  &kp LS(LBRC)  &kp LS(M)  &kp LS(O)     &kp LS(QMARK)    &kp LS(V)  &kp LS(H)  &kp LS(G)  &kp LS(RBRC)  &kp LS(W)  &trans
                                  &trans     &trans        &trans           &trans     &kp LS(E)  &trans
             >;
         };
